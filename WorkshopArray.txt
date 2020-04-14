@@ -1,0 +1,23 @@
+package com.test;
+
+	public class WorkshopArray {
+
+	public static void main(String[] args) {
+		int[] Num = new int[5];
+		Num[0]=1;
+		Num[1]=2;
+		Num[2]=3;
+		Num[3]=4;
+		Num[4]=5;
+		
+		
+		String[][] arr = {
+				{"A","B","A","C","C","D","E","F","A","D"},
+				{"D","B","A","B","C","A","E","F","A","D"},
+				{"E","D","D","A","C","B","E","E","A","D"},
+				{"C","B","A","E","D","D","E","F","A","D"},
+				{"A","B","D","C","C","D","E","E","A","D"}
+			};
+				
+		
+		
