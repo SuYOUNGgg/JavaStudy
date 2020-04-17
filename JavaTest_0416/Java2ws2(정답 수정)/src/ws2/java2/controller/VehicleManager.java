@@ -3,32 +3,32 @@ package ws2.java2.controller;
 import ws2.java2.entity.*;
 
 public class VehicleManager { 
-	Vehicle1[] vehicleArr; 
+	Vehicle1[] vehicleArr; //vehicleArrë¥¼ ìƒì„±ìë©”ì†Œë“œ ë°–ì—ì„œë„ ì‚¬ìš©í•˜ê¸° ìœ„í•´ì„œ ì—¬ê¸°ì— ìœ„ì¹˜ì‹œí‚¨ë‹¤.
 
 
 	public VehicleManager() {
-		vehicleArr = new Vehicle1[7];
+		vehicleArr = new Vehicle1[7];  //Vehicle1 í´ë˜ìŠ¤ì˜ arrayë¥¼ vehicleArrë¡œ ë³€ìˆ˜ ì„ ì–¸í•œ ê²ƒ
 //		airplaneArr = new Airplane[2];
 //		carArr = new Car[3];
 //		shipArr = new Ship[2];
 //		
-//		airplaneArr[0] = new Airplane("º¸À×747", 1300, 300, 4);
+//		airplaneArr[0] = new Airplane("ë³´ì‰747", 1300, 300, 4);
 //		airplaneArr[1] = new Airplane("F-16", 1600, 1, 1);
 //		
-//		carArr[0] = new Car("¼Ò³ªÅ¸3", 180, 5, 10);
-//		carArr[1] = new Car("Æ¼ÄÚ", 130, 4, 15);
-//		carArr[2] = new Car("½ºÅ¸·º½º", 150, 10, 11);
+//		carArr[0] = new Car("ì†Œë‚˜íƒ€3", 180, 5, 10);
+//		carArr[1] = new Car("í‹°ì½”", 130, 4, 15);
+//		carArr[2] = new Car("ìŠ¤íƒ€ë ‰ìŠ¤", 150, 10, 11);
 //		
-//		shipArr[0] = new Ship("Å©·çÁî2", 30, 400, 35000);
-//		shipArr[1] = new Ship("³ëÆ¿·¯½º", 25, 150, 15000);
+//		shipArr[0] = new Ship("í¬ë£¨ì¦ˆ2", 30, 400, 35000);
+//		shipArr[1] = new Ship("ë…¸í‹¸ëŸ¬ìŠ¤", 25, 150, 15000);
 		
-		vehicleArr[0] = new Airplane("º¸À×747", 1200, 300, 4);
+		vehicleArr[0] = new Airplane("ë³´ì‰747", 1200, 300, 4);
 		vehicleArr[1] = new Airplane("F-16", 1600, 1, 1);
-		vehicleArr[2] = new Car("¼Ò³ªÅ¸3", 180, 5, 10);
-		vehicleArr[3] = new Car("Æ¼ÄÚ", 130, 4, 15);
-		vehicleArr[4] = new Car("½ºÅ¸·º½º", 150, 10, 11);
-		vehicleArr[5] = new Ship("Å©·çÁî2", 30, 400, 35000);
-		vehicleArr[6] = new Ship("³ëÆ¿·¯½º", 25, 150, 15000);
+		vehicleArr[2] = new Car("ì†Œë‚˜íƒ€3", 180, 5, 10);
+		vehicleArr[3] = new Car("í‹°ì½”", 130, 4, 15);
+		vehicleArr[4] = new Car("ìŠ¤íƒ€ë ‰ìŠ¤", 150, 10, 11);
+		vehicleArr[5] = new Ship("í¬ë£¨ì¦ˆ2", 30, 400, 35000);
+		vehicleArr[6] = new Ship("ë…¸í‹¸ëŸ¬ìŠ¤", 25, 150, 15000);
 		
 	}
 	
