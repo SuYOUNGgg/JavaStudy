@@ -1,0 +1,8 @@
+Client Side (상태유지한다.)
+-HTML5
+-CSS5
+-javascript
+
+Server Side
+-jsp, servlet
+-database
