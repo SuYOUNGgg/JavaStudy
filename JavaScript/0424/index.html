@@ -1,0 +1,53 @@
+<!dictype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<fieldset>
+			<legend>로그인화면</legend>
+		<form method="get" action="EmployeeProcess.jsp">
+			아이디 : <input type="text" name="userId" size="8"><br>
+			비밀번호 : <input type="password" name="userPwd" size="8" required><br>
+			<textarea cols="10" rows="10"></textarea></br>
+			1학년<input type="radio" name="grade" checked> <!--라디오는 한개만 선택가능-->
+			2학년<input type="radio" name="grade"><br>
+			축구<input type="checkbox" name="hobby" checked> <!--체크박스는 여러개선택 가능-->
+			농구<input type="checkbox" name="hobby"><br>
+
+			<input type="submit" value="Login">&nbsp;
+			<input type="reset" value="Cancel">
+
+			<button type="button">
+			<a href="http://naver.com"><img src="/myweb/images/cat1.jpg" width="50" height="50"></a> <!--이미지가 이 웹문서랑 다른 폴더에 있기 떄문에 경로설정을 잘 해야한다.-->
+			</button> <br>
+			<button type="button" onclick="alert('Clicked);">Click Me			
+			</button>
+			<select name ="job">
+				<option value="0">선택해주세요</option>
+				<option value="1">직장인</option>
+				<option value="2">프리랜서</option>
+				<option value="3">기타</option>				
+			</select><br>
+			<input type="text" list="majorlist" name="major">
+			<datalist id ="majorlist">
+				<option value="Software">소프트웨어</option>
+				<option value="Robot">로봇</option>
+				<option value="System">시스템</option>
+				<option value="Service">서비스</option>
+				<option value="Education">교육</option>
+			</datalist><br>
+			<form>
+				<p>쓰기가능 : <input type="text" name="name" size="20" placeholder="이름을 입력하세요" autofocus></p>
+				<p>읽기전용 : <input type="text" name="name" size="10" readonly></p>
+				<p>사용안함 : <input type="text" name="name" size="10" disabled></p>
+				<p>자동완성 : <input type="text" name="name" size="10" autocomplete="on" required></p>
+
+			</form>
+
+		</form>	
+		<a href="EmployeeProcess.jsp?userId=홍길동">홍길동
+		</a>
+		</fieldset>
+	</body>
+</html>
