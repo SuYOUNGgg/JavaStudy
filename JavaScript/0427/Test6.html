@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		var i =0;
+		document.write(i);
+		document.write("<br>");
+		var name ="홍길동"
+		document.write(name);
+		document.write("<br>");
+		var a=1;
+		var b=2;
+		var c=a+b;
+		document.write(c);
+		</script>
+		<script type="text/javascript">
+			function msg() {
+				window.alert('msg test');
+		}
+		//msg();
+		function add(a,b) {
+			c=a+b;
+			alert(c);		}
+		function test() {
+			document.getElementById("result").value = "1234";
+			document.getElementById("result").style.color ="red";
+		}
+		</script>
+</head>
+<body>
+	<button type="button" onclick="msg();">Click me</button>
+	<button type="button" onclick="add(1,2);">Click me2</button>
+	<br>
+	<button type="button" onclick="test();">Click me3</button>
+	<input type="text" name="result" id="result">
+
+</body>
+</html>

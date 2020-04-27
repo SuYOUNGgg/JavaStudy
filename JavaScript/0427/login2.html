@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function Message(str, str2) {
+			//alert(typeof str);
+			//alert(typeof str2);
+			//alert(document.getElementById("msg").innerHTML);
+			//document.getElementById("msg").innerHTML = "<b>test2</b>";
+			//alert(document.getElementById("msg").innerText);
+			document.getElementById("msg").innerText ="안녕하세요.";
+			document.getElementById("msg").style.color ="red";
+		}
+	</script>
+</head>
+<body>
+	<table style="background-color: pink";>
+	<tr>
+		<td colspan="1">
+				<input type="button" value="Login" onclick="Message('test',20);">
+		</td>
+	</tr>
+	</table>
+	 <span id="msg"><p>test</p></span>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function LoginProcess() {
+			var userId = document.getElementById("userId").value;
+			if(userId=="") {
+				document.getElementById("msg").innerText ="아이디를 입력해주세요.";
+				document.getElementById("msg").style.color ="red";
+				return false;
+			}
+			var userPwd = document.getElementById("userPwd").value;
+			if(userPwd =="") {
+				document.getElementById("msg").innerText ="비밀번호를 입력해주세요.";
+				document.getElementById("msg").style.color ="red";
+				return false;
+			}
+			var userPwdChk = document.getElementById("userPwdChk").value;
+			if(userPwdChk != userPwd) {
+				document.getElementById("msg").innerText ="비밀번호가 일치하지 않습니다.";
+				document.getElementById("msg").style.color ="red";
+				return false;
+			}
+			// userId = "test", "userPwd" ="1234" 로그인 처리가 됨.
+			if(userId =="test" && userPwd =="1234") {
+				document.getElementById("msg").innerText ="로그인되었습니다.";
+				document.getElementById("msg").style.color ="red";
+			}
+			else {
+				document.getElementById("msg").innerText ="로그인 정보를 다시 확인해주세요.";
+				document.getElementById("msg").style.color ="red";
+			}
+	}
+	</script>
+	<style type="text/css"> 
+		
+	</style>
+</head>
+<body>
+	<table style="background-color: pink";>
+		<tr align="center">
+			<td colspan="2"><img src="pepper2.jpg" width="150"></td>
+		</tr>
+		<tr>
+			<td>아이디: </td>
+			<td><input type="text" name="userId" id="userId" size="8"></td>
+		</tr>
+		<tr>
+			<td>비밀번호: </td>
+			<td><input type="password" name="userPwd" id="userPwd" size="8"></td>
+		</tr>
+		<tr>
+			<td>비밀번호 확인: </td>
+			<td><input type="password" name="userPwdChk" id="userPwdChk" size="8"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="button" value="Login" onclick="LoginProcess();">
+			</td>
+		</tr>
+	</table>
+	 <span id="msg"><p></p></span>
+</body>
+</html>
