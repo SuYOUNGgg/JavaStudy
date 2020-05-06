@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>회원가입</title>
+	<style type="text/css">
+		.myform {
+			background-color: white;
+			color: gray;
+		}
+		.myform2 {
+			background-color: pink;
+		}
+	</style>
+	<script type="text/javascript">
+		function CheckLogin() {
+			var Name=document.getElementById("Name").value;
+			var userId=document.getElementById("userId").value;
+			if(Name=="") {
+				document.getElementById("msg").innerText ="이름을 입력해주세요.";
+				document.getElementById("msg").style.color ="red";
+				return false;
+			}
+			if(userId=="") {
+				document.getElementById("msg").innerText ="아이디를 입력해주세요.";
+				document.getElementById("msg").style.color ="red";
+				return false;
+			}
+			var userPwd = document.getElementById("userPwd").value;
+			if(userPwd =="") {
+				document.getElementById("msg").innerText ="비밀번호를 입력해주세요.";
+				document.getElementById("msg").style.color ="red";
+				return false;
+			}
+			var PWCheck = document.getElementById("PWCheck").value;
+			if(PWCheck != userPwd) {
+				document.getElementById("msg").innerText ="비밀번호가 일치하지 않습니다.";
+				document.getElementById("msg").style.color ="red";
+				return false;
+			}
+			if(Name!="" && userId!="" && userPwd!="" && PWCheck!="") {
+				document.getElementById("msg").innerText ="회원가입이 완료되었습니다.";
+				document.getElementById("msg").style.color ="red";
+			}
+		}
+	</script>
+</head>
+<body>
+	<h2>회원 가입</h2>
+	<p></p>
+	<table border="0" class="myform2">
+		<tr>
+			<td>이름 : </td>
+			<td><input type="text" name="Name" id ="Name" placeholder="이름을 입력하세요."></td>
+		</tr>
+		<tr>
+			<td>아이디 : </td>
+			<td><input type="text" name="userId" id="userId" class="myform" placeholder="아이디를 입력하세요." size="25"></td>
+		</tr>
+		<tr>
+			<td>비밀번호 : </td>
+			<td><input type="password" name="userPwd" id="userPwd" class="myform" placeholder="비밀번호를 입력하세요." size="25"></td>
+		</tr>
+		<tr>
+			<td>비밀번호 확인 : </td>
+			<td><input type="password" name="PWCheck" id="PWCheck" class="myform" placeholder="비밀번호 확인을 입력하세요." size="25"></td>
+		</tr>
+		<tr>
+			<td>이메일 : </td>
+			<td><input type="email" name="Email"></td>
+		</tr>
+		
+		<tr>
+			<td>성별 : </td>
+			<td><input type="radio" name="gender" >남자
+			<input type="radio" name="gender" >여자</td>
+		</tr>
+		<tr>
+			<td>전화번호 : </td>
+			<td><input type="text" size="3">-<input type="text" size="3">-<input type="text" size="3"></td>
+		</tr>
+		<tr>
+			<td>핸드폰 : </td>
+			<td>
+				<select><option value="1">010</option> <option value="2">011</option>
+				</select>-<input type="text" size="3">-<input type="text" size="3"></td>
+		</tr>
+		<tr>
+			<td>홈페이지 : </td>
+			<td><input type="url" name="Home" size="20"></td>
+		</tr>
+		<tr>
+			<td>생일 : </td>
+			<td><input type="date" name="Birth"></td>
+		</tr>
+		<tr>
+			<td>좋아하는 색깔 : </td>
+			<td><input type="color"></td>
+		</tr>
+		<tr>
+			<td>관심분야 : </td>
+			<td><input type="checkbox" name="Interest">경제
+		<input type="checkbox" name="Interest">IT
+		<input type="checkbox" name="Interest">사회
+		<input type="checkbox" name="Interest">과학
+		<input type="checkbox" name="Interest">음악
+		<input type="checkbox" name="Interest">미술 </td>
+		</tr>
+		<tr>
+			<td>하고 싶은 말 </td>
+			<td><textarea></textarea></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="확인" onclick="CheckLogin();">
+				<button type="button" onclick="alert('취소')">취소</td>
+		</tr>
+		<span id="msg"></span>
+
+	</table>
+
+</body>
+</html>
