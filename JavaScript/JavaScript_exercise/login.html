@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<style type="text/css">
+		.myform {
+			background-color: gray;
+			color: white;
+		}
+		.myform2 {
+			background-color: pink;
+
+		}
+	</style>
+	<script type="text/javascript">
+		function CheckLogin() {
+			var userId=document.getElementById("userId").value;
+			var userPwd=document.getElementById("userPwd").value;
+			//alert(userId + ", " + userPwd);
+			if(userId == "") {
+				alert("Required userId");
+				return false;
+			}
+			if(userPwd == "") {
+				alert("Required userPwd");
+				return false;
+			}
+			if(userId =="1234" && userPwd=="1234"){
+				alert("Login Successful");
+			}
+		}
+		function Message() {
+			document.getElementById("msg").innerText = "방가워요";
+			document.getElementById("msg").style.color = "red";
+			}
+	</script>
+</head>
+<body>
+	<h2>Login Page</h2>
+	<p></p>
+	<table border="0" class="myform2">
+		<tr>
+			<td>id : </td>
+			<td><input type="text" name="userId" id="userId" class="myform"></td>
+		</tr>
+		<tr>
+			<td>password : </td>
+			<td><input type="password" name="userPwd" id="userPwd" class="myform"></td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<input type="button" value="Login" onclick="CheckLogin();">
+			</td>
+		</tr>
+	</table>
+	<p>메뉴</p>
+	<select>
+		<option value="1">자장면</option>
+		<option value="2">짬뽕</option>
+		<option value="3">탕수육</option>
+	</select>
+	<p></p>
+	선택 : <input type="radio" name="a">유
+	<input type="radio" name="a">무
+	<p></p>
+	내용
+	<textarea></textarea>
+	<p></p>
+	<input type="button" value="Click Me" onclick="Message();">
+	<span id="msg"></span>
+</body>
+</html>
