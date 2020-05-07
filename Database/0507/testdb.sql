@@ -1,0 +1,45 @@
+CREATE TABLE DEPT
+(
+	DEPT_ID              CHAR(18) NOT NULL ,
+	DEPT_NAME            CHAR(18) NULL ,
+	LOC_ID               CHAR(18) NULL 
+);
+
+
+
+CREATE UNIQUE INDEX XPK부서 ON DEPT
+(DEPT_ID   ASC);
+
+
+
+ALTER TABLE DEPT
+	ADD CONSTRAINT  XPK부서 PRIMARY KEY (DEPT_ID);
+
+
+
+CREATE TABLE EMP
+(
+	EMP_NO               CHAR(18) NOT NULL ,
+	NAME                 CHAR(18) NULL ,
+	HIRE                 CHAR(18) NULL ,
+	JIKWI                CHAR(18) NULL ,
+	SAL                  CHAR(18) NULL ,
+	BONUS                CHAR(18) NULL ,
+	MGR                  CHAR(18) NULL ,
+	DEPT_ID              CHAR(18) NOT NULL 
+);
+
+
+
+CREATE UNIQUE INDEX XPK사원 ON EMP
+(EMP_NO   ASC);
+
+
+
+ALTER TABLE EMP
+	ADD CONSTRAINT  XPK사원 PRIMARY KEY (EMP_NO);
+
+
+
+ALTER TABLE EMP
+	ADD (CONSTRAINT R_1 FOREIGN KEY (DEPT_ID) REFERENCES DEPT (DEPT_ID));
