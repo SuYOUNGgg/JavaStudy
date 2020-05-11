@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PO_SUPPLIER" directorySegmentName="seg_0" id="48ADD9E4-C479-F4B3-00B5-F843609B8CEE">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<schemaObject>1916ED19-700F-50C5-C35E-759F45399EC6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6B2E78C7-AED2-ACC7-6991-86715BC2F99D</segment>
+<tableSpace>D52C1285-4CE6-B7DE-EF4C-FEBFE5F2016E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SUP_ADDR" id="46F0701F-ACF4-9407-511C-44FB416A6BA6">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUP_NAME" id="594E322D-D4E4-EF53-792B-B87DCCFB372D">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUP_NO" id="7F6101F1-E317-78C2-9DF6-2EF4488C2C0E">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUP_PHONE" id="A19A25DC-8730-F5A5-1F61-6FFD66BB11DC">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_SUP_SUPPIERNO" id="766B91CF-6F36-8750-232B-7E703566AE59">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<schemaObject>1916ED19-700F-50C5-C35E-759F45399EC6</schemaObject>
+<segment>B16B0095-437F-8DBB-D38A-1ACA41A723A0</segment>
+<tableSpace>D52C1285-4CE6-B7DE-EF4C-FEBFE5F2016E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_SUP_SUPPIERNO" id="F3D8E80E-9430-2C51-2CEA-E3A50E6033C3">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<segment>B16B0095-437F-8DBB-D38A-1ACA41A723A0</segment>
+<tableSpace>D52C1285-4CE6-B7DE-EF4C-FEBFE5F2016E</tableSpace>
+<existingIndex>766B91CF-6F36-8750-232B-7E703566AE59</existingIndex>
+<indexSegment>B16B0095-437F-8DBB-D38A-1ACA41A723A0</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

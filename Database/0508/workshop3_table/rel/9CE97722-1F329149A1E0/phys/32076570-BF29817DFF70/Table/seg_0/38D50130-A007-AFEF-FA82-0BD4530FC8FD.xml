@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DEPT" directorySegmentName="seg_0" id="38D50130-A007-AFEF-FA82-0BD4530FC8FD">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<schemaObject>1916ED19-700F-50C5-C35E-759F45399EC6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6B2E78C7-AED2-ACC7-6991-86715BC2F99D</segment>
+<tableSpace>D52C1285-4CE6-B7DE-EF4C-FEBFE5F2016E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEPT_ID" id="4AD11B46-3100-41D6-5E6A-3121724191F1">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOC_ID" id="7750E7C8-5F8A-12D0-7257-C01C7577118D">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPT_NAME" id="ED15C39D-DAA3-2B1F-FAE3-ADB7500DF6A5">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPTID_PK" id="6A9EF08A-0FDB-6FE1-0B0D-23AB8648FF51">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<schemaObject>1916ED19-700F-50C5-C35E-759F45399EC6</schemaObject>
+<segment>B16B0095-437F-8DBB-D38A-1ACA41A723A0</segment>
+<tableSpace>D52C1285-4CE6-B7DE-EF4C-FEBFE5F2016E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPTID_PK" id="1BF89806-6295-9786-887E-D33A477A4E99">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<segment>B16B0095-437F-8DBB-D38A-1ACA41A723A0</segment>
+<tableSpace>D52C1285-4CE6-B7DE-EF4C-FEBFE5F2016E</tableSpace>
+<existingIndex>6A9EF08A-0FDB-6FE1-0B0D-23AB8648FF51</existingIndex>
+<indexSegment>B16B0095-437F-8DBB-D38A-1ACA41A723A0</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="41F3FC90-18E2-4A5D-DB53-3BC9E891B157" containerWithKeyObject="853C0E3A-0CDC-FE56-1627-F67D26F05777" localFKIndex="9BE8AAB4-9658-2116-50ED-A2C4258CA965" name="FK_ORDERDTL_ORDNO">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>FK_ORDERDTL_ORDNO</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<referredTableLongName>SCOTT.PO_ORDER_HEADER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B5D29F66-D1F0-1106-8E4E-639BAD8EBACD</referredTableID>
+<keyObject>77FFB7DA-3E38-6184-EA0E-17A6E71148DC</keyObject>
+<referredKeyID>77FFB7DA-3E38-6184-EA0E-17A6E71148DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ORD_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

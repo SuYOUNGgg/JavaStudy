@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F4234B5F-BF30-2388-0BA8-4A0309E0397D" mainViewID="313AE29C-B134-A66F-D5BD-4452F135C189">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:39:00 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

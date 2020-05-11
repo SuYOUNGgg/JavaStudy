@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8357462-67D5-F7FD-5E22-91735FE073CF" schemaObject="1916ED19-700F-50C5-C35E-759F45399EC6" name="PO_ITEM">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PO_ITEM</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ITEM_NO" id="A36FE947-8291-A30E-F1C7-C6D649C6E7BB">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>PO_ITEM</sourceObjSchema>
+<sourceObjName>ITEM_NO</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_NAME" id="F0996F40-E0D0-7F82-A1A3-A9F8660BCA32">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>PO_ITEM</sourceObjSchema>
+<sourceObjName>ITEM_NAME</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UNIT_PRICE" id="17836411-F6D1-B2CE-8F63-7FEBC2E9A375">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>PO_ITEM</sourceObjSchema>
+<sourceObjName>UNIT_PRICE</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ITEM_UNIT" id="872D6CC4-8023-603B-10E2-A085708C5143">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>PO_ITEM</sourceObjSchema>
+<sourceObjName>ITEM_UNIT</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9553857E-882A-68CC-5CE1-B0C6CDC31BF8" name="PK_ITEM_ITEMNO">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_ITEM_ITEMNO</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A36FE947-8291-A30E-F1C7-C6D649C6E7BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C05B1904-9681-C832-6EF2-8DABF385E248" schemaObject="1916ED19-700F-50C5-C35E-759F45399EC6" name="PK_ITEM_ITEMNO">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_ITEM_ITEMNO</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A36FE947-8291-A30E-F1C7-C6D649C6E7BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

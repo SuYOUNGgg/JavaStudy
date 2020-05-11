@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="893D1554-29F2-15C1-BEC4-772D0C51E3F3" containerWithKeyObject="B5D29F66-D1F0-1106-8E4E-639BAD8EBACD" localFKIndex="AC82331C-B413-0E4E-85DF-11442785D11F" name="FK_ORDERHD_SUPNO">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>FK_ORDERHD_SUPNO</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<referredTableLongName>SCOTT.PO_SUPPLIER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>48ADD9E4-C479-F4B3-00B5-F843609B8CEE</referredTableID>
+<keyObject>F3D8E80E-9430-2C51-2CEA-E3A50E6033C3</keyObject>
+<referredKeyID>F3D8E80E-9430-2C51-2CEA-E3A50E6033C3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>SUP_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

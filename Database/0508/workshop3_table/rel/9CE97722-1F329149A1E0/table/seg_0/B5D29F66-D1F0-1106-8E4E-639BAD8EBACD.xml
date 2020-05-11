@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5D29F66-D1F0-1106-8E4E-639BAD8EBACD" schemaObject="1916ED19-700F-50C5-C35E-759F45399EC6" name="PO_ORDER_HEADER">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PO_ORDER_HEADER</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ORD_NO" id="EBD48F56-D0A8-EF37-E922-C4129EF80A41">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>PO_ORDER_HEADER</sourceObjSchema>
+<sourceObjName>ORD_NO</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORD_DATE" id="607A6E82-B25A-D456-D466-C59E49624D06">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>PO_ORDER_HEADER</sourceObjSchema>
+<sourceObjName>ORD_DATE</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DUE_DATE" id="D0C41A9E-187F-819D-8187-92AC6DB5F4F8">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>PO_ORDER_HEADER</sourceObjSchema>
+<sourceObjName>DUE_DATE</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUP_NO" id="D3F6F349-B819-7F00-8489-A38FA84240D0">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>PO_ORDER_HEADER</sourceObjSchema>
+<sourceObjName>SUP_NO</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="893D1554-29F2-15C1-BEC4-772D0C51E3F3" referredColumn="7F6101F1-E317-78C2-9DF6-2EF4488C2C0E"/>
+</associations>
+</Column>
+<Column name="ORD_EMP" id="0A7A0F39-E34A-9117-280C-3873B5AA88D8">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>PO_ORDER_HEADER</sourceObjSchema>
+<sourceObjName>ORD_EMP</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D2788E2-F817-06E9-C0CE-39293D2F6E3D" referredColumn="34491A51-8835-1B95-2E28-EB7D6F2EB46F"/>
+</associations>
+</Column>
+<Column name="DELV_DATE" id="BD396BCF-0780-19C5-D6D8-F099128F156B">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>PO_ORDER_HEADER</sourceObjSchema>
+<sourceObjName>DELV_DATE</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77FFB7DA-3E38-6184-EA0E-17A6E71148DC" name="PK_ORDERHD_ORDNO">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_ORDERHD_ORDNO</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBD48F56-D0A8-EF37-E922-C4129EF80A41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3FD86CB-6684-FBAB-8BC9-AB2E78CEE5AD" schemaObject="1916ED19-700F-50C5-C35E-759F45399EC6" name="PK_ORDERHD_ORDNO">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_ORDERHD_ORDNO</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBD48F56-D0A8-EF37-E922-C4129EF80A41"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04C58E52-D531-647F-F632-556349F3A668" name="FK_ORDERHD_ORDEMP">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A7A0F39-E34A-9117-280C-3873B5AA88D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC82331C-B413-0E4E-85DF-11442785D11F" name="FK_ORDERHD_SUPNO">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3F6F349-B819-7F00-8489-A38FA84240D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

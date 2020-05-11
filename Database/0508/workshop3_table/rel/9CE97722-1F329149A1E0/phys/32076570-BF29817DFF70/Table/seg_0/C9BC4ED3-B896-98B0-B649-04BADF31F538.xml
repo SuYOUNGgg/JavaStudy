@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="MEMBER" directorySegmentName="seg_0" id="C9BC4ED3-B896-98B0-B649-04BADF31F538">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<schemaObject>1916ED19-700F-50C5-C35E-759F45399EC6</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>6B2E78C7-AED2-ACC7-6991-86715BC2F99D</segment>
+<tableSpace>D52C1285-4CE6-B7DE-EF4C-FEBFE5F2016E</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DEPT_ID" id="12CAA789-BCB8-0C5E-3D98-CA6016B7EA51">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MEMBER_ID" id="22A6902D-90AD-A412-3EFE-F09EFCC6E1FE">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NAME" id="30D0F303-0749-F850-310D-A22387CC8691">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIRE" id="909C7AD0-7244-C93B-CFB4-FE8D3771CEAA">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JIKWI" id="95AB0CEE-9469-04F2-F35B-304D1B3F7B2E">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SAL" id="B6763EFC-E6C0-54B9-8D10-EAD23E20A606">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BONUS" id="D60A98EB-F639-0319-193E-D0DC759494CC">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MGR" id="FDC5BA36-F735-EA55-93EB-0D264B66F4B0">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="MEMBER_MEMBER_ID_PK" id="1AD4E759-6F88-A2F8-EE79-1F70B7DFA4DE">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<schemaObject>1916ED19-700F-50C5-C35E-759F45399EC6</schemaObject>
+<segment>B16B0095-437F-8DBB-D38A-1ACA41A723A0</segment>
+<tableSpace>D52C1285-4CE6-B7DE-EF4C-FEBFE5F2016E</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="MEMBER_DEPTID_FK" id="63A65A38-6F34-CC03-B7CF-49186BA475F9">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="MEMBER_MEMBER_ID_PK" id="00BCBB9F-3B73-AD1A-BC2B-CC8D1BA56DE6">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<segment>B16B0095-437F-8DBB-D38A-1ACA41A723A0</segment>
+<tableSpace>D52C1285-4CE6-B7DE-EF4C-FEBFE5F2016E</tableSpace>
+<existingIndex>1AD4E759-6F88-A2F8-EE79-1F70B7DFA4DE</existingIndex>
+<indexSegment>B16B0095-437F-8DBB-D38A-1ACA41A723A0</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="609C41C1-7874-6888-A50F-383BFCCFC107" containerWithKeyObject="853C0E3A-0CDC-FE56-1627-F67D26F05777" localFKIndex="921B8DDC-E36D-C919-E05D-03BC7EDE1753" name="FK_ORDERDTL_ITEMNO">
+<sourceConnName>company</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>FK_ORDERDTL_ITEMNO</sourceObjName>
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:43:01 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<referredTableLongName>SCOTT.PO_ITEM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E8357462-67D5-F7FD-5E22-91735FE073CF</referredTableID>
+<keyObject>9553857E-882A-68CC-5CE1-B0C6CDC31BF8</keyObject>
+<referredKeyID>9553857E-882A-68CC-5CE1-B0C6CDC31BF8</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ITEM_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

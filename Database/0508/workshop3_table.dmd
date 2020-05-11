@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="workshop3_table" id="ED59E3F3-C470-87FB-5AB4-1A369A389953" version="3.5">
+<createdBy>kccistc</createdBy>
+<createdTime>2020-05-08 06:39:00 UTC</createdTime>
+<ownerDesignName>workshop3_table</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>ED59E3F3-C470-87FB-5AB4-1A369A389953</designId>
+</OSDM_Design>
