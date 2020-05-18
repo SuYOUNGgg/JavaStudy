@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Servers/Apache Tomcat v8.0 (2) at localhost-config&apos; to &apos;Apache Tomcat v8.0 at localhost-config&apos;" description="Rename resource &apos;Apache Tomcat v8.0 (2) at localhost-config&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Apache Tomcat v8.0 (2) at localhost-config" name="Apache Tomcat v8.0 at localhost-config" stamp="1589508099668" updateReferences="true"/>
+</session>

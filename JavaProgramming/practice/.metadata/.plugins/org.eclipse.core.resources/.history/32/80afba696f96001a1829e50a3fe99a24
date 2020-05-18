@@ -1,0 +1,30 @@
+package com.test;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.*;
+@WebServlet("/LoginProcess")
+public class LoginProcess3 extends HttpServlet {	
+	private boolean validateUser(String userId, 
+			String userPwd) {
+				return false;
+		
+	}	
+	public void doGet(HttpServletRequest req,
+			HttpServletResponse res) throws IOException {
+		String userId = req.getParameter("userId");
+		String userPwd = req.getParameter("userPwd");
+		
+		res.setContentType("text/html;charset=utf-8");
+		PrintWriter out = res.getWriter();
+		out.print("<html><body>");
+		Cookie cId = new Cookie("userId", userId);
+		cId.setPath("/");
+		res.addCookie(cId);
+		out.print("userId cookie created");
+		out.print("</body></html>");
+		out.close();
+	}
+}
