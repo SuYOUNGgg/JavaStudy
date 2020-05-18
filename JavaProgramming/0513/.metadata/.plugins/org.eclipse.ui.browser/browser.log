@@ -1,0 +1,7 @@
+
+5월 14, 2020 10:15:21.57 NEW SESSION
+5월 14, 2020 10:15:21.57 [16816:14216:0514/101521.571:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 14, 2020 10:15:25.80 [16816:14216:0514/101525.804:ERROR:device_event_log_impl.cc(162)] [10:15:25.804] Bluetooth: bluetooth_adapter_winrt.cc:1055 Getting Default Adapter failed.
+5월 14, 2020 13:12:57.22 [16816:4932:0514/131257.222:ERROR:socket_stream.cc(218)] Closing stream with result -2
+5월 14, 2020 13:48:53.70 [16816:16452:0514/134853.702:ERROR:get_updates_processor.cc(258)] PostClientToServerMessage() failed during GetUpdates with error 2
+5월 14, 2020 13:48:56.11 [16816:4932:0514/134856.119:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106
