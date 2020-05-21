@@ -1,0 +1,6 @@
+
+5월 19, 2020 09:11:11.59 NEW SESSION
+5월 19, 2020 09:11:11.59 [3416:3344:0519/091111.591:ERROR:browser_switcher_service.cc(238)] XXX Init()
+5월 19, 2020 09:11:21.89 [3416:3344:0519/091121.898:ERROR:device_event_log_impl.cc(162)] [09:11:21.897] Bluetooth: bluetooth_adapter_winrt.cc:1055 Getting Default Adapter failed.
+5월 19, 2020 13:19:30.87 [3416:8708:0519/131930.877:ERROR:socket_stream.cc(218)] Closing stream with result -2
+5월 19, 2020 13:35:54.35 [3416:8708:0519/133554.353:ERROR:connection_factory_impl.cc(420)] Failed to connect to MCS endpoint with error -106

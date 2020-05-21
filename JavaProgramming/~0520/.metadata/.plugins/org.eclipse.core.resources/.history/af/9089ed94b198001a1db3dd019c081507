@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Test Page</title>
+</head>
+<body>
+<h1>Login Test Menu</h1>
+<a href = "login.html">Login</a>
+<a href = "logout.html">Logout</a>
+<a href = "ProfileServlet">Profile</a>
+
+</body>
+</html>

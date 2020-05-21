@@ -1,0 +1,60 @@
+package com.test;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.SessionCookieConfig;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+/**
+ * Servlet implementation class LoginProcess
+ */
+@WebServlet("/LoginProcess")
+public class LoginProcess extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		
+		response.setContentType("text/html;charset=utf-8");
+		PrintWriter out = response.getWriter();
+		
+		String userId = request.getParameter("userId");
+		String userPwd = request.getParameter("userPwd");
+		String userPwdCheck = request.getParameter("userPwdCheck");
+		String gender = request.getParameter("gender");
+		
+		HttpSession session = request.getSession();
+		session.setAttribute("userId", userId);
+		session.setAttribute("userPwd", userPwd);
+		session.setAttribute("userPwdCheck", userPwdCheck);
+		session.setAttribute("gender", gender);
+		
+		if(userId.equals("test") && userPwd.equals("1234") && userPwdCheck.equals("1234") && gender != null) {
+			out.print("로그인을 하였습니다."); 
+			out.println();
+			out.print("당신의 아이디는 : " + userId);
+			out.println();
+			out.print("당신의 비밀번호는 : " + userPwd);
+			out.println();
+			out.print("당신의 성별은 : "+ gender);
+			out.println();
+			out.print("수고 많으셨습니다.");
+		} else {
+			out.print("아이디와 비밀번호를 확인하세요.");
+			request.getRequestDispatcher("Login.html").include(request, response);
+		}
+		out.close();
+		
+
+
+}
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src ="jquery-3.5.1.js"></script>
+<script>
+	function CheckLogin() {
+		var userId=document.getElementById("userId").value;
+		var userPwd=document.getElementById("userPwd").value;
+		var userPwdCheck=document.getElementById("userPwdCheck").value;
+		var gender = document.getElementById("gender").value;
+		
+		if(userId=="") {
+			document.getElementById("msg").innerText ="아이디를 입력해주세요.";
+			document.getElementById("msg").style.color ="red";
+			return false;
+		}
+		if(userPwd =="") {
+			document.getElementById("msg").innerText ="비밀번호를 입력해주세요.";
+			document.getElementById("msg").style.color ="red";
+			return false;
+		}
+		if(userPwdCheck != userPwd) {
+			document.getElementById("msg").innerText ="비밀번호가 일치하지 않습니다.";
+			document.getElementById("msg").style.color ="red";
+			return false;
+		}
+		if(gender =="") {
+			document.
+		}
+		
+		document.getElementById("myform").submit();
+		
+	}
+</script>
+</head>
+<body>
+<form id =myform action="LoginProcess" method="post">
+	<table border="0">
+	<tr>
+		<td>아이디 : </td>
+		<td><input type="text" name="userId"></td>
+	</tr>
+	<tr>
+		<td>암호 : </td>
+		<td><input type="password" name="userPwd"></td>
+	</tr>
+	<tr>
+		<td>암호 확인 : </td>
+		<td><input type="password" name="userPwdCheck"></td>
+	</tr>
+	<tr>
+		<td>남녀구분 : </td>
+		<td>남 <input type ="radio" name="gender"> 여 <input type="radio" name = "gender"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+		<input type="submit" value="로그인">
+		<input type="reset" value="초기화">
+		</td>
+	</tr>
+	</table>
+	</form>
+</body>
+</html>
