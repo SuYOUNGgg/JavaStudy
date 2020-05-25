@@ -26,3 +26,7 @@ def msg(str):
 
 msg("good")
 msg("ok")
+
+data = [(1,2,3),(4,5,6),(6,7,9),(1,2,3)]
+for x, y, z in data:
+    print(x,y,z)
