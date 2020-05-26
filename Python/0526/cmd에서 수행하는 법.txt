@@ -1,0 +1,4 @@
+*import
+__name__:"calculation"
+*직접수행(python calculation.py)
+__name__:"__main__"
